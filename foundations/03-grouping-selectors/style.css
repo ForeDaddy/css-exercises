@@ -1,0 +1,13 @@
+.click {
+  font-size: 28px;
+  font-family: Helvetica, Times New Roman, sans-serif;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border-style: none;
+}
+
+.click.no {
+  background-color: orange;
+  color: black;
+}
