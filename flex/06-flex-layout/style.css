@@ -7,8 +7,64 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+background-color: #eeeeee;
+position:absolute;
+bottom: 0;
+width: 100%;
+margin: 0px, auto;
+}
+
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: rgb(81, 80, 80);
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.right-links {
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.imput, .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ul {
+  list-style: none;
+}
+
 img {
   width: 600px;
+  
 }
 
 button {
@@ -16,6 +72,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  
 }
 
 input {
